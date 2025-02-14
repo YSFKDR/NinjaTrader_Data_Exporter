@@ -27,6 +27,9 @@ git clone https://github.com/YSFKDR/NinjaTrader-Excel-Exporter.git
 - Search for `ChartData` and add it to the chart.
 - Click **Apply** and **OK**.
 
+#### Indicator Settings Preview:
+![Indicator Settings](images/ChartData_Settings_Display.png)
+
 ---
 
 ## Usage
@@ -64,12 +67,9 @@ print(df.head())  # Display first 5 rows
 
 ## Example Output
 ### Sample `chartdata.csv` File
-```csv
-Time,Open,High,Low,Close
-2024-02-14 09:30:00,4200.25,4201.50,4198.75,4200.00
-2024-02-14 09:35:00,4200.00,4203.00,4199.50,4202.25
-2024-02-14 09:40:00,4202.25,4204.75,4201.00,4203.50
-```
+#### CSV Data Exported:
+![CSV Output](images/ChartData_CSV_Export.png)
+
 
 ---
 
