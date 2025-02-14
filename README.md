@@ -34,7 +34,7 @@ git clone https://github.com/YSFKDR/NinjaTrader-Excel-Exporter.git
 - Once the indicator is added to a chart, it will start logging data automatically.
 - A CSV file named **`chartdata.csv`** is created in:
   ```
-  D:\Your\Custom\Path\chartdata.csv
+  D:\chartdata.csv
   ```
   *Note: You can modify this path in the source code if needed.*
 
@@ -56,7 +56,7 @@ git clone https://github.com/YSFKDR/NinjaTrader-Excel-Exporter.git
 ```python
 import pandas as pd
 
-df = pd.read_csv("D:/Your\Custom\Path/chartdata.csv")
+df = pd.read_csv("D:\chartdata.csv")
 print(df.head())  # Display first 5 rows
 ```
 
