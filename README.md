@@ -77,7 +77,7 @@ Time,Open,High,Low,Close
 ### 1. Changing the File Path
 Modify this line in `ChartData.cs` to save the file elsewhere:
 ```csharp
-private string chartdata = @"D:\Your\Custom\Path\chartdata.csv";
+private string chartdata = @"D:\chartdata.csv";
 ```
 
 ### 2. Adjusting Data Frequency
